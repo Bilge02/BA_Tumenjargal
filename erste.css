@@ -1,0 +1,65 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+header {
+  background-color: rgb(79, 171, 242);
+  padding: 20px;
+  text-align: left;
+  font-size: 100%;
+  color: black;
+}
+
+.title {
+  margin-top: 85px;
+  text-align: center;
+  width: 100%;
+}
+
+.d-grid {
+  text-align: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    align-items: center;      
+    justify-content: center;  
+    height: 30vh;
+    gap: 40px;               
+}
+
+.image {
+    width: 35%;           
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.maintext_1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.maintext_2 {
+    font-size: 1em;
+    line-height: 2;
+    text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(79, 171, 242);
+  padding: 10px;
+  font-size: 100%;
+  text-align: center;
+}
