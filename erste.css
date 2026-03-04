@@ -63,3 +63,9 @@ footer {
   font-size: 100%;
   text-align: center;
 }
+
+@media (min-width: 1900px) {
+  .container {
+    min-height: 60vh;
+  }
+}
