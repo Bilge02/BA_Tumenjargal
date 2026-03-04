@@ -7,13 +7,26 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 
 <style>
-html, body {
+/*html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
 #map { height: 100%; }
+*/
+html, body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+  
 
 #gazeDot {
   position: fixed;
@@ -51,6 +64,8 @@ html, body {
   height: 150px !important;
   z-index: 9999 !important;
   border: 2px solid red;
+
+  
 }
 </style>
 </head>
@@ -68,7 +83,6 @@ html, body {
 <div id="webgazerVideoContainer"></div>
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<!--<script src="https://webgazer.cs.brown.edu/webgazer.js"></script>--> <!-- old version--> 
 <script src="https://cdn.jsdelivr.net/npm/webgazer@3.4.0/dist/webgazer.min.js"></script>
 
 <script>
@@ -209,4 +223,3 @@ function triggerAction(key) {
 
 </body>
 </html>
-
